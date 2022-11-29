@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { ChakraProvider, ColorModeScript, theme } from "@chakra-ui/react";
 import App from "./App";
-import ColorModeSwitcher from "../../project3/src/ColorModeSwitcher";
+import ColorModeSwitcher from "./ColorModeSwitcher";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
